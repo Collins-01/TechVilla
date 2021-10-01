@@ -9,8 +9,8 @@
 
 
    <application
-        android:label="tech_villa"
-        android:icon="@mipmap/ic_launcher">
+        android:label="Tech Villa Store"
+        android:icon="@mipmap/app_logo">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

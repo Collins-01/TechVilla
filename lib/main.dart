@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
-import 'package:tech_villa/spalsh_screen.dart';
+// import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
+import 'package:tech_villa/home_sceen.dart';
+// import 'package:tech_villa/spalsh_screen.dart';
 
 void main() => runApp(new MyApp());
 
@@ -10,8 +11,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Interview Test',
-      home: SpalshScreen(),
+      title: 'Tech Villa Store',
+      home: HomeScreen(),
     );
   }
 }
